@@ -1,2 +1,4 @@
 # Project exclude paths
 /StrategyPattern/target/
+.idea
+.gitignore
