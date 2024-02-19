@@ -12,7 +12,7 @@ import com.jerry.FactoryPattern.factoryMethodMode.pizzaStoreImpl.ChinesePizzaSto
 public class Client {
     public static void main(String[] args) {
         ChinesePizzaStore chinesePizzaStore = new ChinesePizzaStore();
-        Pizza pizza = chinesePizzaStore.orderPizza("oo");
+        Pizza pizza = chinesePizzaStore.orderPizza("cheese");
         System.out.println(pizza.getName());
     }
 }

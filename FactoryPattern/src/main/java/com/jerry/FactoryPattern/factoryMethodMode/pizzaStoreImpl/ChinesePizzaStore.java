@@ -2,8 +2,8 @@ package com.jerry.FactoryPattern.factoryMethodMode.pizzaStoreImpl;
 
 import com.jerry.FactoryPattern.factoryMethodMode.Pizza;
 import com.jerry.FactoryPattern.factoryMethodMode.PizzaStore;
-import com.jerry.FactoryPattern.factoryMethodMode.pizzaImpl.CheesePizza;
-import com.jerry.FactoryPattern.factoryMethodMode.pizzaImpl.ChickenPizza;
+import com.jerry.FactoryPattern.factoryMethodMode.pizzaImpl.CNCheesePizza;
+import com.jerry.FactoryPattern.factoryMethodMode.pizzaImpl.CNChickenPizza;
 import com.jerry.FactoryPattern.factoryMethodMode.pizzaImpl.NormalPizza;
 
 
@@ -16,13 +16,14 @@ import com.jerry.FactoryPattern.factoryMethodMode.pizzaImpl.NormalPizza;
 public class ChinesePizzaStore extends PizzaStore {
 
 
+
     @Override
     public Pizza createPizza(String type) {
         Pizza pizza = new NormalPizza();
         if (type == "cheese") {
-            return new CheesePizza();
+            return new CNCheesePizza();
         } else if (type=="chicken") {
-            return new ChickenPizza();
+            return new CNChickenPizza();
         }
         //other pizza
 

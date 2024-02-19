@@ -1,4 +1,4 @@
-package com.jerry.FactoryPattern.factoryMethodMode;
+package com.jerry.FactoryPattern.abstractMethodMode;
 
 /**
  * @version 1.0

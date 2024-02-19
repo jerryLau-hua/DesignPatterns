@@ -6,13 +6,11 @@ import com.jerry.FactoryPattern.factoryMethodMode.Pizza;
 /**
  * @version 1.0
  * @Author jerryLau
- * @Date 2024/2/5 14:12
+ * @Date 2024/2/5 14:16
  * @注释
  */
-public class CheesePizza extends Pizza {
-    public CheesePizza() {
-        name = "Cheese Pizza";
+public class CNChickenPizza extends Pizza {
+    public CNChickenPizza() {
+        name = "CNChickenPizza Pizza";
     }
-
-
 }
