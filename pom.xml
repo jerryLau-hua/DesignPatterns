@@ -17,6 +17,7 @@
         <module>CommandPattern</module>
         <module>AdapterPattern</module>
         <module>FacadePattern</module>
+        <module>TemplateMethodPattern</module>
     </modules>
 
     <properties>
