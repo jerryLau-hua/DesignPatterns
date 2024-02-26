@@ -11,7 +11,7 @@ public class TeaMake extends DrinksMake {
 
     @Override
     protected void addTheIngredients() {
-        System.out.println("step 4 : add sugar into tea");
+        System.out.println("step 4 : add Lemon into tea");
     }
 
     @Override

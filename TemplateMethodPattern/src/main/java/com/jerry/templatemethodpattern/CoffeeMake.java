@@ -10,7 +10,7 @@ public class CoffeeMake extends DrinksMake {
 
     @Override
     protected void addTheIngredients() {
-        System.out.println("step 4 : add milkCup into Coffee");
+        System.out.println("step 4 : add Sugar and Milk into Coffee");
     }
 
     @Override
