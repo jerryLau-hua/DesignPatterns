@@ -17,7 +17,9 @@ abstract class DrinksMake {
         //step3 倒出到杯子中
         pourInCup();
         //step4 添加配料
-        addTheIngredients();
+        if (ifNeedIngredients()) {
+            addTheIngredients();
+        }
 
     }
 
@@ -34,5 +36,12 @@ abstract class DrinksMake {
         System.out.println("step3: pourInCup !");
     }
 
+
+    /***
+     * 钩子方法，子类可以选择重写或者不重写
+     */
+    boolean ifNeedIngredients() {
+        return true;
+    }
 
 }

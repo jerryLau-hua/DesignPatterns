@@ -9,10 +9,10 @@ package com.jerry.templatemethodpattern;
  */
 public class Client {
     public static void main(String[] args) {
-        TeaMake teaMake = new TeaMake();
-        CoffeeMake coffeeMake = new CoffeeMake();
+//        TeaMake teaMake = new TeaMake();
+        CoffeeMakeWithHook coffeeMake = new CoffeeMakeWithHook();
 
-        teaMake.makeDrinks();
+//        teaMake.makeDrinks();
         coffeeMake.makeDrinks();
 
     }
