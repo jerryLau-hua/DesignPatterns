@@ -18,6 +18,7 @@
         <module>AdapterPattern</module>
         <module>FacadePattern</module>
         <module>TemplateMethodPattern</module>
+        <module>IteratorAndCompositePattern</module>
     </modules>
 
     <properties>
