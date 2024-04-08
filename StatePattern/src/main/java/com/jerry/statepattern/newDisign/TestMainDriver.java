@@ -14,11 +14,11 @@ public class TestMainDriver {
         gumballMachine.passButton();
         System.out.println(gumballMachine);
 //
-//        gumballMachine.insertMoney();
-//        gumballMachine.passButton();
-//        gumballMachine.insertMoney();
-//        gumballMachine.passButton();
-//        System.out.println(gumballMachine);
+        gumballMachine.insertMoney();
+        gumballMachine.passButton();
+        gumballMachine.insertMoney();
+        gumballMachine.passButton();
+        System.out.println(gumballMachine);
 
     }
 }
