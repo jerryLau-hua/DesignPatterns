@@ -19,6 +19,7 @@
         <module>FacadePattern</module>
         <module>TemplateMethodPattern</module>
         <module>IteratorAndCompositePattern</module>
+        <module>StatePattern</module>
     </modules>
 
     <properties>
